@@ -1,7 +1,7 @@
 {
 	"id": "paragraph-spell-focus",
 	"name": "Paragraph Spell Focus",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"minAppVersion": "1.13.4",
 	"description": "Limit native spellcheck to the paragraph under the cursor.",
 	"author": "Michael Lip",

@@ -48,6 +48,8 @@ With Pro, select Section in the focus scope control. Add folder rules if differe
 
 ## Settings
 
+After a minor or major update, this plugin opens one What's new tab in the background. The tab and settings card suggest other NoteMods plugins and Zovo Chat and link to notemods.com for feedback ([privacy](https://notemods.com/privacy/)). The tab sends no data. Turn the tab off in Settings.
+
 Paragraph spelling focus controls whether focus is active. Mark the active range controls the background. These two controls are free. Focus scope and Folder rules require Pro. A rule has a folder path, an equals sign, and one of `paragraph`, `section`, or `off`.
 
 The plugin accepts up to 100 saved folder rules. It ignores duplicate folder entries after the first valid entry. It rejects parent path segments. Folder names are case-sensitive. Use the path shown in your vault. Section scope falls back to paragraph scope for a note above two million characters to limit work during cursor movement.

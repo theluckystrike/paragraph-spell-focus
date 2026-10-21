@@ -3,10 +3,16 @@ import { sponsorsSettingItems } from './license/github-obsidian';
 import { PRO_UI } from './pro';
 import { parseRules } from './policy';
 import type ParagraphSpellFocusPlugin from './main';
+import { helloSettingItems } from './hello/settings';
 
 export class ParagraphSpellFocusSettingTab extends PluginSettingTab {
  constructor(app: ConstructorParameters<typeof PluginSettingTab>[0], public plugin: ParagraphSpellFocusPlugin) { super(app, plugin); }
  getSettingDefinitions(): SettingDefinitionItem[] {
+  // The product rows, then the "More from NoteMods" card (packages/hello).
+  return [...this.productSettingDefinitions(), ...helloSettingItems()];
+ }
+
+ productSettingDefinitions(): SettingDefinitionItem[] {
   const p = this.plugin;
   return [
    { name: 'Paragraph spelling focus', desc: 'Keep native spellcheck in the paragraph with the caret. Enable the native spelling option first.', control: { type: 'toggle', key: 'enabled', defaultValue: true } },
