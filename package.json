@@ -1,7 +1,6 @@
 {
 	"name": "paragraph-spell-focus",
-	"repository": {"type": "git", "url": "theluckystrike/paragraph-spell-focus.git"},
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"private": true,
 	"description": "Limit native spellcheck to the paragraph under the cursor.",
 	"main": "main.js",
