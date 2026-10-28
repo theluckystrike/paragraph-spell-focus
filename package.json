@@ -1,6 +1,6 @@
 {
 	"name": "paragraph-spell-focus",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"private": true,
 	"description": "Limit native spellcheck to the paragraph under the cursor.",
 	"main": "main.js",
