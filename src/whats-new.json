@@ -1,10 +1,9 @@
 {
 	"id": "paragraph-spell-focus",
 	"name": "Paragraph Spell Focus",
-	"version": "1.2.2",
+	"version": "1.2.3",
 	"changes": [
-		"When the settings refuse a Pro choice, for example in Focus scope (Pro), the keyboard focus now stays on that setting.",
-		"In a text field the focus leaves the field, as before."
+		"The Pro notice of Paragraph Spell Focus now says that one payment turns on Pro in every NoteMods plugin."
 	],
 	"tip": "Assign a hotkey to Toggle paragraph spelling focus in Obsidian to switch focus on and off while you write.",
 	"thanks": "Hi, I am Michael, a solo developer in Poland. Paragraph Spell Focus is one of over 100 small plugins that I make. Thank you for writing with it.",
