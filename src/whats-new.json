@@ -1,7 +1,7 @@
 {
 	"id": "paragraph-spell-focus",
 	"name": "Paragraph Spell Focus",
-	"version": "1.2.3",
+	"version": "1.2.4",
 	"changes": [
 		"The Pro notice of Paragraph Spell Focus now says that one payment turns on Pro in every NoteMods plugin."
 	],
